@@ -17,7 +17,7 @@ git clone <repository-url>
 cd csv_analysis_project
 
 python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
+source env/bin/activate  
 
 pip install django pandas matplotlib seaborn
 
