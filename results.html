@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSV Analysis Results</title>
+</head>
+<body>
+    <h1>CSV Analysis Results</h1>
+    <h2>First Few Rows</h2>
+    {{ head|safe }}
+    
+    <h2>Summary Statistics</h2>
+    {{ desc|safe }}
+    
+    <h2>Missing Values</h2>
+    {{ missing_values|safe }}
+    
+    <h2>Data Visualization</h2>
+    <img src="/media/plot.png" alt="Data Visualization">
+</body>
+</html>
